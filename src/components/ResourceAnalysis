@@ -1,0 +1,14 @@
+import React from "react";
+
+function ResourceAnalysis({ projects }) {
+  const totalResources = projects.length;
+
+  return (
+    <div>
+      <h3>Resource Analysis</h3>
+      <p>Total Projects: {totalResources}</p>
+    </div>
+  );
+}
+
+export default ResourceAnalysis;
